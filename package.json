@@ -20,7 +20,8 @@
   "homepage": "https://github.com/repaso-examen-end-viki/repaso_examen_end#readme",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mysql2": "^3.9.8"
   },
   "devDependencies": {
     "nodemon": "^3.1.1"
