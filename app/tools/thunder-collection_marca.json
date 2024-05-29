@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "marca",
+    "collectionId": "46531c82-b379-4003-9931-fa6f367d0e31",
+    "dateExported": "2024-05-29T01:33:57.859Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9a7aa171-7b5e-4691-8b2b-32f353d0c0f3",
+            "colId": "46531c82-b379-4003-9931-fa6f367d0e31",
+            "containerId": "",
+            "name": "mostrar",
+            "url": "http://localhost:3000/api/marca/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-29T01:09:07.506Z",
+            "modified": "2024-05-29T01:12:34.763Z",
+            "headers": []
+        },
+        {
+            "_id": "ce41e223-6bd8-4cfd-b50a-e76f14279f5e",
+            "colId": "46531c82-b379-4003-9931-fa6f367d0e31",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3000/api/marca",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-29T01:09:45.081Z",
+            "modified": "2024-05-29T01:12:34.764Z",
+            "headers": []
+        },
+        {
+            "_id": "47c71ad8-e3ea-4851-bbd5-892828774cc1",
+            "colId": "46531c82-b379-4003-9931-fa6f367d0e31",
+            "containerId": "",
+            "name": "crear",
+            "url": "http://localhost:3000/api/marca",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-29T01:10:12.869Z",
+            "modified": "2024-05-29T01:26:20.700Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descripcion\": \"sorento\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fcd8f74e-fa0e-45b2-8b89-ef307b08c046",
+            "colId": "46531c82-b379-4003-9931-fa6f367d0e31",
+            "containerId": "",
+            "name": "modificar",
+            "url": "http://localhost:3000/api/marca",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-29T01:10:45.650Z",
+            "modified": "2024-05-29T01:30:14.211Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 2,\n  \"descripcion\": \"mt09\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fccb4bde-b6d7-43f2-9176-c93f10c356fc",
+            "colId": "46531c82-b379-4003-9931-fa6f367d0e31",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:3000/api/marca",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-29T01:11:00.628Z",
+            "modified": "2024-05-29T01:33:08.197Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 8\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "EtQPOxxVOYQXfkaeBR429sDtvpFPMvWJiNzZs05OsaaykcpfXPRWK2kpk6PhnnmyrrpwqJdCIqzjBxRwH9GzUg"
+}
