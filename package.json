@@ -1,0 +1,27 @@
+{
+  "name": "repaso_examen",
+  "version": "1.0.0",
+  "description": "repaso final",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repaso-examen-end-viki/repaso_examen_end.git"
+  },
+  "author": "Victoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/repaso-examen-end-viki/repaso_examen_end/issues"
+  },
+  "homepage": "https://github.com/repaso-examen-end-viki/repaso_examen_end#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
